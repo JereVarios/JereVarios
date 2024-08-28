@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga Minecraft Champions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Liga Minecraft Champions</h1>
+        <span class="menu-icon" onclick="openNav()">&#9776;</span>
+    </header>
+
+    <!-- Menú deslizante -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#informacion" onclick="closeNav()">Información</a>
+        <a href="#partidos" onclick="closeNav()">Partidos</a>
+        <a href="#resultados" onclick="closeNav()">Resultados</a>
+        <a href="#noticias" onclick="closeNav()">Noticias</a>
+        <a href="#estadisticas" onclick="closeNav()">Estadísticas</a>
+        <a href="#grabaciones" onclick="closeNav()">Grabaciones</a>
+    </div>
+
+    <section id="informacion">
+        <h2>Información de la Liga</h2>
+        <p>Bienvenidos a la Liga Minecraft Champions, la competición más emocionante en el mundo de Minecraft.</p>
+    </section>
+
+    <section id="partidos" class="scrollable-section">
+        <h2>Partidos</h2>
+        <div class="item">
+            <h3>Equipo A vs Equipo B - 01/09/2024</h3>
+        </div>
+        <div class="item">
+            <h3>Equipo C vs Equipo D - 02/09/2024</h3>
+        </div>
+        <!-- Más partidos -->
+    </section>
+
+    <section id="resultados" class="scrollable-section">
+        <h2>Resultados</h2>
+        <div class="item">
+            <h3>Equipo A 3 - 1 Equipo B</h3>
+        </div>
+        <div class="item">
+            <h3>Equipo C 2 - 2 Equipo D</h3>
+        </div>
+        <!-- Más resultados -->
+    </section>
+
+    <section id="noticias" class="scrollable-section">
+        <h2>Últimas Noticias</h2>
+        <div class="item">
+            <h3>Nuevo Torneo Confirmado</h3>
+            <p>La próxima temporada de la Liga Minecraft Champions comenzará en octubre.</p>
+        </div>
+        <div class="item">
+            <h3>Actualización en el Ranking</h3>
+            <p>El equipo A se posiciona como líder después de una impresionante victoria.</p>
+        </div>
+        <!-- Más noticias -->
+    </section>
+
+    <section id="estadisticas">
+        <h2>Estadísticas de la Temporada</h2>
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3>Máximos Goleadores</h3>
+                <ul>
+                    <li>Jugador 1 (Equipo A) - 10 goles</li>
+                    <li>Jugador 2 (Equipo B) - 8 goles</li>
+                    <!-- Más jugadores -->
+                </ul>
+            </div>
+            <div class="stat-box">
+                <h3>Asistencias</h3>
+                <ul>
+                    <li>Jugador 3 (Equipo C) - 7 asistencias</li>
+                    <li>Jugador 4 (Equipo D) - 6 asistencias</li>
+                    <!-- Más jugadores -->
+                </ul>
+            </div>
+            <div class="stat-box">
+                <h3>Porteros con más arcos en cero</h3>
+                <ul>
+                    <li>Portero 1 (Equipo A) - 5 partidos</li>
+                    <li>Portero 2 (Equipo B) - 4 partidos</li>
+                    <!-- Más porteros -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="grabaciones">
+        <h2>Grabaciones de los Partidos</h2>
+        <div class="video-container">
+            <div class="video-item">
+                <h3>Equipo A vs Equipo B</h3>
+                <video controls>
+                    <source src="ruta_al_video1.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+            <div class="video-item">
+                <h3>Equipo C vs Equipo D</h3>
+                <video controls>
+                    <source src="ruta_al_video2.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+            <!-- Más videos -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Liga Minecraft Champions. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+                  </html>
